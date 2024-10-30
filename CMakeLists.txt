@@ -16,6 +16,8 @@ if (UNIX)
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 endif(UNIX)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 add_subdirectory(sdk_core sdk_core)
 add_subdirectory(sample/hub)
 add_subdirectory(sample/lidar)
