@@ -1,6 +1,6 @@
 
 # ignore dir
-#build/
+build/
 build/*.txt
 build/Makefile
 build/*.cmake
