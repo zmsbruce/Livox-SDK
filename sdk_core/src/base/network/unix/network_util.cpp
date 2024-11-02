@@ -115,6 +115,7 @@ bool FindLocalIp(const struct sockaddr_in &client_addr, uint32_t &local_ip) {
 }
 
 size_t RecvFrom(socket_t &sock, void *buff,  size_t buf_size, int flag, struct sockaddr *addr, int *addrlen) {
+  (void)flag;
   return recvfrom(sock, buff, buf_size, 0, addr, (socklen_t *)addrlen);
 }
 

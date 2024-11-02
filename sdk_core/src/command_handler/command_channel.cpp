@@ -32,7 +32,6 @@
 #include "livox_def.h"
 #include <stdio.h>
 
-using std::bind;
 using std::list;
 using std::make_pair;
 using std::map;
