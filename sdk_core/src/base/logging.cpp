@@ -54,6 +54,4 @@ void InitLogger() {
   logger->flush_on(spdlog::level::debug);
 }
 
-void UninitLogger() {
-  spdlog::drop_all();
-}
+void UninitLogger() {}
