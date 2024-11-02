@@ -11,4 +11,6 @@ build/sample
 #whitelist
 !build/notes.txt
 
+.cache/
+
 
